@@ -1,5 +1,5 @@
 # portfoliotest
-![Screenshot from 2020-07-07 19-47-44](https://github.com/AndyRama/andycave/blob/master/My%20portfolio.PNG)  
+![Screenshot from 2020-07-07 19-47-44](https://github.com/AndyRama/portfoliotest/blob/master/portfolio.png)  
  
 # URL  
 https://andyrama.github.io/portfoliotest
