@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
 *{
    margin: 0;
    padding: 0;
@@ -10,6 +11,8 @@
 section {
 	padding: 100px;
 }
+
+/*---- SECTION 1 ---------*/
 
 .banner {
 	position: relative;
@@ -67,10 +70,10 @@ header {
 	width: 100%;
 	padding: 40px 100px;
 	z-index: 1000;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    transition: 0.4s;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.4s;
 }
 
 header .sticky {
@@ -80,7 +83,7 @@ header .sticky {
 }
 
 header .logo {
-	color: #fff;
+	color: #2193F3;
 	font-size: 24px;
 	text-transform: uppercase;
 	text-decoration:  none;
@@ -106,8 +109,10 @@ header ul li a {
 	position: relative;
 	display:  inline-block;
 	margin: 0 15px;
-	color: #fff;
+	color: #2193f3;
 	text-decoration: none;
+  font-weight: 600;
+  font-style: 30px;
 }
 
 header .sticky ul li a {
@@ -119,6 +124,8 @@ header .sticky ul li a {
 	height: 40px;
 }
 
+/*---- SECTION 2 ---------*/
+
 .heading {
 	width: 100%;
 	text-align:  center;
@@ -129,6 +136,7 @@ header .sticky ul li a {
 .heading h2 {
     font-weight: 600;
     font-style: 30px;
+    justify-content: center; 
 }
 
 .content {
@@ -141,17 +149,26 @@ header .sticky ul li a {
 }
 
 .contentBx h3 {
-    font-size: 24px;
-    margin-bottom: 10px
+  font-size: 24px;
+  margin-bottom: 10px
 }
 
 .w50 {
 	min-width: 50%;	
+  text-align: justify; 
+  padding-left: 5px;
 }
 
 img {
 	max-width: 80%;
 }
+
+
+/*------- SECTION 3 ---------*/
+
+.heading.white {
+ 	color:  #fff;
+ }
 
 .servicesBx img {
 	max-width: 80px;
@@ -159,12 +176,9 @@ img {
 }
 
 .services {
-	background: #111;
+	background: black ;
 }
 
-.heading.white {
- 	color:  #fff;
- }
 
 .services .content {
 	display: flex;
@@ -207,10 +221,8 @@ img {
 	width: 50%;
 	padding: 30px;
   border:1px solid black;
-  /* padding-top: 20px; */
   margin-bottom: 20px ;
   margin-right: -20px;
-  /* background-color: gray; */
 }
 
 .work .content .card .btn-P {
@@ -230,6 +242,8 @@ img {
 	max-width:  100%;
 
 }
+
+/*---- SECTION 5 ---------*/
 
 .testimonial {
 	background: #f7f7f7;
@@ -268,6 +282,8 @@ img {
   font-size: 14px;
   font-weight: 400;
 }
+
+/*---- SECTION 6 ---------*/
 
 .contact {
 	background: #111;
